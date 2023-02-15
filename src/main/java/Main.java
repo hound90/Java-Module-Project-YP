@@ -31,6 +31,7 @@ public class Main {
         calc.calculate();
 
         count = calc.countPrice / divisionAmount;
+
         int bCount;
 
         String rubble = null;
@@ -68,3 +69,4 @@ public class Main {
 
     }
 }
+
