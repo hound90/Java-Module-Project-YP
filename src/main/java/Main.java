@@ -13,6 +13,11 @@ public class Main {
 
 
         while (true) {
+            while(!scanner.hasNextInt() || !scanner.hasNextFloat()) {
+                System.out.println("Неправильно. Только целое число.");
+                scanner.next();
+            }
+
             divisionAmount = scanner.nextInt();
 
             if (divisionAmount > 1) {
